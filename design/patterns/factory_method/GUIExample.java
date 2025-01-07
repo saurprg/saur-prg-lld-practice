@@ -3,6 +3,7 @@ interface  Button {
 }
 
 class WindowsButton implements Button {
+    
     WindowsButton() {
         System.err.println("Created Windows button");
     }
